@@ -9,7 +9,7 @@ class MemeBrowser(QMainWindow):
         super().__init__()
 
         # Main Window Setup
-        self.setWindowTitle("WilRhyXYZ - Aka the worst browser in history")
+        self.setWindowTitle("BalsWEB - ")
         self.setGeometry(100, 100, 1280, 720)
 
         # Central Widget
@@ -27,22 +27,22 @@ class MemeBrowser(QMainWindow):
         self.addToolBar(nav_bar)
 
         # Back Button
-        back_btn = QAction("⬅️ Back", self)
+        back_btn = QAction("⬅️ Back (you know this)", self)
         back_btn.triggered.connect(self.navigate_back)
         nav_bar.addAction(back_btn)
 
         # Forward Button
-        forward_btn = QAction("➡️ Forward", self)
+        forward_btn = QAction("➡️ Forward (YOU ALSO KNOW THIS)", self)
         forward_btn.triggered.connect(self.navigate_forward)
         nav_bar.addAction(forward_btn)
 
         # Reload Button
-        reload_btn = QAction("🔄 Reload", self)
+        reload_btn = QAction("🔄 Reload (if the site connection is garbage or whatever reason)", self)
         reload_btn.triggered.connect(self.reload_page)
         nav_bar.addAction(reload_btn)
 
         # New Tab Button
-        new_tab_btn = QAction("➕ New Tab", self)
+        new_tab_btn = QAction("➕ im guessing you know this button but its, New Tab", self)
         new_tab_btn.triggered.connect(self.new_tab)
         nav_bar.addAction(new_tab_btn)
 
