@@ -1,6 +1,6 @@
-# More Info on our website soon.
+# More Info on our website
 
-<a href="https://www.melaton.pro/balsweb">Click here to go to the introduction page</a>
+<a href="https://www.melaton.pro/balsweb/balsweb-info">Click here to go to the info page</a>
 
 # How to download and use (Windows 11)
 
