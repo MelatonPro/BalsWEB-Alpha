@@ -9,7 +9,7 @@ class MemeBrowser(QMainWindow):
         super().__init__()
 
         # Main Window Setup
-        self.setWindowTitle("BalsWEB - ")
+        self.setWindowTitle("BalsWEB - Probably the most not funny browser but its trying its best :(")
         self.setGeometry(100, 100, 1280, 720)
 
         # Central Widget
@@ -37,7 +37,7 @@ class MemeBrowser(QMainWindow):
         nav_bar.addAction(forward_btn)
 
         # Reload Button
-        reload_btn = QAction("🔄 Reload (if the site connection is garbage or whatever reason)", self)
+        reload_btn = QAction("🔄 Reload (if the site stats are bad or whatever reason)", self)
         reload_btn.triggered.connect(self.reload_page)
         nav_bar.addAction(reload_btn)
 
@@ -56,7 +56,7 @@ class MemeBrowser(QMainWindow):
 
     def new_tab(self, *args):
         browser = QWebEngineView()
-        browser.setUrl(QUrl("https://example.com"))  # Default start page
+        browser.setUrl(QUrl("https://www.melaton.pro/balsweb/balsweb-opened"))  # Default start page
         browser.urlChanged.connect(lambda q, b=browser: self.update_url(q, b))
         i = self.tabs.addTab(browser, "New Tab 🐸")
         self.tabs.setCurrentIndex(i)
