@@ -12,6 +12,6 @@ In order to download, make sure you have Python 3.13 installed from the Microsof
 
 2. Then type: pip install PyQt5 PyQtWebEngine
 
-3. Afterwards, download the new_updatelol.py file and open it.
+3. Afterwards, download any update.py file and open it.
 
 You now have access to BalsWEB Alpha Build 1! Thanks for downloading!
