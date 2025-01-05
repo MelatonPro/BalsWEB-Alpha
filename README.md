@@ -14,4 +14,6 @@ In order to download, make sure you have Python 3.13 installed from the Microsof
 
 3. Afterwards, download any update.py file and open it.
 
+The second thing that pops up whenever you open the file is the browser logs and is mainly for the developer(s) to see if the browser is crashing or malfunctioning.
+
 You now have access to BalsWEB Alpha Build 1! Thanks for downloading!
